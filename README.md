@@ -90,4 +90,6 @@ Recording of all the steps taken in this project. Here are the timestamped subje
 
 ### Notebook that does all the steps to setup an end to end pipeling using the Python SDK
 
+Note: While recoding there where only a few minutes of time left in the Lab
+
 [![Notebook that does all the steps to setup an end to end pipeling using the Python SDK](https://img.youtube.com/vi/rcyM-dMFxAU/0.jpg)](https://www.youtube.com/watch?v=rcyM-dMFxAU&t=773) 
