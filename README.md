@@ -59,6 +59,12 @@ Using the iPython notebook, a pipeline is generated that is visible as a graph i
 
 Documentation depends on company standards, but would preferably be accessible on a portal/intranet
 
+## Ways to improve the model
+
+First autoML gives a class balancing detection alert. This should be solved by supplying an equal amount of records that nave the label 'No' as the label 'Yes'. Currently there are 7.9 times as much records with a 'No' label as there are with the label 'Yes'
+
+Secondly it is an option to train longer and maybe even try if the neural network option gives better results. 
+
 
 ## Screen Recording
 
