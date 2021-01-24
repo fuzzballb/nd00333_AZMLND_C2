@@ -26,10 +26,13 @@ From all the training methods used by AutoML, the Voting Ensemble has the highes
 
 The Voting Ensamble model is deployed and exposes a REST endpoint, with supporting swagger definition
 
+#### Deploying the model
 ![Deploying the best model as a REST endpoint](https://github.com/fuzzballb/nd00333_AZMLND_C2/blob/master/starter_files/Screenshots/EndpointReady.PNG "Deploying the best model as a REST endpoint")
 
+#### Using the Swagger definition in SwaggerUI
 ![Using the Swagger definition in SwaggerUI](https://github.com/fuzzballb/nd00333_AZMLND_C2/blob/master/starter_files/Screenshots/SwaggerJSON.PNG "Using the Swagger definition in SwaggerUI")
 
+#### Consuming endpoint with endpoint.py
 ![Consuming endpoint with endpoint.py](https://github.com/fuzzballb/nd00333_AZMLND_C2/blob/master/starter_files/Screenshots/Endpointpy_result.PNG "Consuming endpoint with endpoint.py")
 
 ### Enable logging
