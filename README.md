@@ -30,8 +30,11 @@ In this project we used AzureML to train a model based on marketing data from a 
 	
 ### Creating a publishing a pipeline
 
+#### Using the SDK to define a pipeline
 
 ![Creating a publishing a pipeline SDK](https://github.com/fuzzballb/nd00333_AZMLND_C2/blob/master/starter_files/Screenshots/Creating_pipeline_1.png "Creating a publishing a pipeline SDK")
+
+#### The resulting peline in AzureML studio
 
 ![Creating a publishing a pipeline Result](https://github.com/fuzzballb/nd00333_AZMLND_C2/blob/master/starter_files/Screenshots/Pipeline.PNG "Creating a publishing a pipeline Result")
 
