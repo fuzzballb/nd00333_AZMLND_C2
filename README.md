@@ -1,9 +1,11 @@
-# Your Project Title Here
+# Delopying and exposing an AzureML auto trained model as a REST endpoint
 
-*TODO:* Write an overview to your project.
+In this project we used AzureML to train a model based on marketing data from a bank. We chose the optimal model to be deployed as a REST endpoint, and used different methods to consume the endpoint
 
 ## Architectural Diagram
 *TODO*: Provide an architectual diagram of the project and give an introduction of each step. An architectural diagram is an image that helps visualize the flow of operations from start to finish. In this case, it has to be related to the completed project, with its various stages that are critical to the overall flow. For example, one stage for managing models could be "using Automated ML to determine the best model". 
+
+![Steps](https://github.com/fuzzballb/nd00333_AZMLND_C2/blob/master/starter_files/Screenshots/Steps.PNG "Steps")
 
 ## Key Steps
 *TODO*: Write a short discription of the key steps. Remeber to include all the screenshots required to demonstrate key steps. 
@@ -20,9 +22,9 @@ Recording of all the steps taken in this project. Here are the timestamped subje
 
 [![Configuring an azureML run](https://img.youtube.com/vi/rcyM-dMFxAU/0.jpg)](https://www.youtube.com/watch?v=rcyM-dMFxAU&t=187)
 
-### Selecting the best performing model to be deloped
+### Selecting the best performing model to be deployed
 
-[![Selecting the best performing model to be deloped](https://img.youtube.com/vi/rcyM-dMFxAU/0.jpg)](https://www.youtube.com/watch?v=rcyM-dMFxAU&t=262)
+[![Selecting the best performing model to be deployed](https://img.youtube.com/vi/rcyM-dMFxAU/0.jpg)](https://www.youtube.com/watch?v=rcyM-dMFxAU&t=262)
 
 ### Enabelling logging
 
