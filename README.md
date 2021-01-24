@@ -1,4 +1,4 @@
-# Delopying and exposing an AzureML auto trained model as a REST endpoint
+# Deplopying and exposing an AzureML auto trained model as a REST endpoint
 
 In this project AzureML is used to train a model based on marketing data from a bank. A selection of the optimal model is made and deployed as a REST endpoint. Different methods of consuming the endpoint are show. Finally the creation of a complete end to end deployment is done using the Python SDK.
 
@@ -37,27 +37,27 @@ The Voting Ensamble model is deployed and exposes a REST endpoint, with supporti
 
 ### Enable logging
 
-To enable logging for the REST endpoint, a Python script is used that enables application insigts
+To enable logging for the REST endpoint, a Python script is used that enables application insights
 
 ![Enable logging](https://github.com/fuzzballb/nd00333_AZMLND_C2/blob/master/starter_files/Screenshots/Logs_output.PNG "Enable logging")
 
 	
 ### Creating a publishing a pipeline
 
-Using the iPython notebook, a pipeline is generated that is vissible as a graph in AzureML studio. 
+Using the iPython notebook, a pipeline is generated that is visible as a graph in AzureML studio. 
 
 #### Using the SDK to define a pipeline
 
 ![Creating a publishing a pipeline SDK](https://github.com/fuzzballb/nd00333_AZMLND_C2/blob/master/starter_files/Screenshots/Creating_pipeline_1.png "Creating a publishing a pipeline SDK")
 
-#### The resulting peline in AzureML studio
+#### The resulting pipeline in AzureML studio
 
 ![Creating a publishing a pipeline Result](https://github.com/fuzzballb/nd00333_AZMLND_C2/blob/master/starter_files/Screenshots/Pipeline.PNG "Creating a publishing a pipeline Result")
 
 
 ### Creating and/or sharing documentation and Swagger definition
 
-Documentation depends on company standards, but would preferribly be accessable on a portal/intranet
+Documentation depends on company standards, but would preferably be accessible on a portal/intranet
 
 
 ## Screen Recording
@@ -76,7 +76,7 @@ Recording of all the steps taken in this project. Here are the timestamped subje
 
 [![Selecting the best performing model to be deployed](https://img.youtube.com/vi/rcyM-dMFxAU/0.jpg)](https://www.youtube.com/watch?v=rcyM-dMFxAU&t=262)
 
-### Enabelling logging
+### Enabling logging
 
 [![Enabelling logging](https://img.youtube.com/vi/rcyM-dMFxAU/0.jpg)](https://www.youtube.com/watch?v=rcyM-dMFxAU&t=427)
 
@@ -90,6 +90,9 @@ Recording of all the steps taken in this project. Here are the timestamped subje
 
 ### Notebook that does all the steps to setup an end to end pipeling using the Python SDK
 
-Note: While recoding there where only a few minutes of time left in the Lab. See https://github.com/fuzzballb/nd00333_AZMLND_C2/blob/master/starter_files/aml-pipelines-with-automated-machine-learning-step.ipynb for an overview of the steps executed in the Notebook
+Note: While recoding there where only a few minutes of time left in the Lab. 
+
+See https://github.com/fuzzballb/nd00333_AZMLND_C2/blob/master/starter_files/aml-pipelines-with-automated-machine-learning-step.ipynb 
+for an overview of the steps executed in the Notebook
 
 [![Notebook that does all the steps to setup an end to end pipeling using the Python SDK](https://img.youtube.com/vi/rcyM-dMFxAU/0.jpg)](https://www.youtube.com/watch?v=rcyM-dMFxAU&t=773) 
