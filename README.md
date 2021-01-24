@@ -8,27 +8,27 @@ In this project we used AzureML to train a model based on marketing data from a 
 
 ## Key Steps
 
-###Uploading a dataset and configuring an azureML run
+### Uploading a dataset and configuring an azureML run
 
 ![Uploading a dataset and configuring an azureML run](https://github.com/fuzzballb/nd00333_AZMLND_C2/blob/master/starter_files/Screenshots/AutoMLrun.PNG "Uploading a dataset and configuring an azureML run")
 
 
-###using Automated ML to determine the best model
+### using Automated ML to determine the best model
 
 ![using Automated ML to determine the best model](https://github.com/fuzzballb/nd00333_AZMLND_C2/blob/master/starter_files/Screenshots/Trained_models.PNG "using Automated ML to determine the best model")
 
 
-###Deploying the best model as a REST endpoint
+### Deploying the best model as a REST endpoint
 
 ![Deploying the best model as a REST endpoint](https://github.com/fuzzballb/nd00333_AZMLND_C2/blob/master/starter_files/Screenshots/EndpointReady.PNG "Deploying the best model as a REST endpoint")
 
 
-###Enable logging
+### Enable logging
 
 ![Enable logging](https://github.com/fuzzballb/nd00333_AZMLND_C2/blob/master/starter_files/Screenshots/Logs_output.PNG "Enable logging")
 
 	
-###Creating a publishing a pipeline
+### Creating a publishing a pipeline
 
 
 ![Creating a publishing a pipeline SDK](https://github.com/fuzzballb/nd00333_AZMLND_C2/blob/master/starter_files/Screenshots/Creating_pipeline_1.png "Creating a publishing a pipeline SDK")
@@ -36,7 +36,7 @@ In this project we used AzureML to train a model based on marketing data from a 
 ![Creating a publishing a pipeline Result](https://github.com/fuzzballb/nd00333_AZMLND_C2/blob/master/starter_files/Screenshots/Pipeline.PNG "Creating a publishing a pipeline Result")
 
 
-###Creating and/or sharing documentation and Swagger definition
+### Creating and/or sharing documentation and Swagger definition
 
 
 
