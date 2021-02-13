@@ -33,7 +33,7 @@ The Voting Ensamble model is deployed and exposes a REST endpoint, with supporti
 
 #### Using the Swagger definition in SwaggerUI
 
-Using Swagger UI we can see the endpoints and expected data format for those endpoint. Unfortunately the python server didn't work when actually sending the call
+Using Swagger UI we can see the endpoints and expected data format for those endpoint.
 
 ![Using the Swagger definition in SwaggerUI](https://github.com/fuzzballb/nd00333_AZMLND_C2/blob/master/starter_files/Screenshots/SwaggerJSON.PNG "Using the Swagger definition in SwaggerUI")
 
