@@ -61,9 +61,8 @@ Using the iPython notebook, a pipeline is generated that is visible as a graph i
 
 ![Pipeline overview in AzureML studio](https://github.com/fuzzballb/nd00333_AZMLND_C2/blob/master/starter_files/Screenshots/Review/Review/4_Pipeline-overview-running-2.PNG "Pipeline overview in AzureML studio")
 
-![Pipeline graph in AzureML studio](https://github.com/fuzzballb/nd00333_AZMLND_C2/blob/master/starter_files/Screenshots/Review/4_Pipeline-overview-running.PNG "Pipeline graph in AzureML studio")
+![Pipeline graph in AzureML studio](https://github.com/fuzzballb/nd00333_AZMLND_C2/blob/master/starter_files/Screenshots/Review/Published-pipeline-automl.PNG "Published Pipeline graph")
 
-![Pipeline running in AzureML studio](https://github.com/fuzzballb/nd00333_AZMLND_C2/blob/master/starter_files/Screenshots/Review/4_Pipeline-running.PNG "Pipeline running in AzureML studio")
 
 
 
@@ -73,15 +72,13 @@ Using the iPython notebook, a pipeline is generated that is visible as a graph i
 
 #### The resulting pipeline in AzureML studio
 
-![Creating a publishing a pipeline Result](https://github.com/fuzzballb/nd00333_AZMLND_C2/blob/master/starter_files/Screenshots/Pipeline.PNG "Creating a publishing a pipeline Result")
 
-![5_endpointstate_active](https://github.com/fuzzballb/nd00333_AZMLND_C2/blob/master/starter_files/Screenshots/Review/5_endpointstate_active.PNG "5_endpointstate_active")
+![Creating a publishing a pipeline Result](https://github.com/fuzzballb/nd00333_AZMLND_C2/blob/master/starter_files/Screenshots/Review/5_endpointstate_active.PNG "Pipeline active endpoint")
 
-![6_scheduled-run](https://github.com/fuzzballb/nd00333_AZMLND_C2/blob/master/starter_files/Screenshots/Review/6_scheduled-run.PNG "6_scheduled-run")
 
-![Call_to_endpoint_curl](https://github.com/fuzzballb/nd00333_AZMLND_C2/blob/master/starter_files/Screenshots/Review/Call_to_endpoint_curl.PNG "Call_to_endpoint_curl")
+![Creating a publishing a pipeline Result](https://github.com/fuzzballb/nd00333_AZMLND_C2/blob/master/starter_files/Screenshots/Review/6_scheduled-run.PNG "Scheduled run")
 
-![Published-pipeline-automl](https://github.com/fuzzballb/nd00333_AZMLND_C2/blob/master/starter_files/Screenshots/Review/Published-pipeline-automl.PNG "Published-pipeline-automl")
+
 
 
 
