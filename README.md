@@ -69,7 +69,7 @@ Using the iPython notebook, a pipeline is generated that is visible as a graph i
 
 #### Using the SDK to define a pipeline
 
-![Creating a publishing a pipeline SDK](https://github.com/fuzzballb/nd00333_AZMLND_C2/blob/master/starter_files/Screenshots/Creating_pipeline_1.PNG "Creating a publishing a pipeline SDK")
+![Creating a publishing a pipeline SDK](https://github.com/fuzzballb/nd00333_AZMLND_C2/blob/master/starter_files/Screenshots/Creating_pipeline_1.png "Creating a publishing a pipeline SDK")
 
 #### The resulting pipeline in AzureML studio
 
@@ -114,4 +114,3 @@ Recording of all the steps taken in this project. Here are the timestamped subje
 See https://github.com/fuzzballb/nd00333_AZMLND_C2/blob/master/starter_files/aml-pipelines-with-automated-machine-learning-step.ipynb 
 for an overview of the steps executed in the Notebook
 
-[![Notebook that does all the steps to setup an end to end pipeling using the Python SDK](https://img.youtube.com/vi/rcyM-dMFxAU/0.jpg)](https://www.youtube.com/watch?v=rcyM-dMFxAU&t=773) 
