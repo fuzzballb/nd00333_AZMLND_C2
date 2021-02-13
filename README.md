@@ -12,7 +12,11 @@ In this project AzureML is used to train a model based on marketing data from a 
 
 In AzureML studio, a dataset containing marketing data is uploaded and a 'run' is configured where a dataset and a target column is specified. 
 
-![Uploading a dataset and configuring an azureML run](https://github.com/fuzzballb/nd00333_AZMLND_C2/blob/master/starter_files/Screenshots/AutoMLrun.PNG "Uploading a dataset and configuring an azureML run")
+![registerd datasets](https://github.com/fuzzballb/nd00333_AZMLND_C2/blob/master/starter_files/Screenshots/Review/1_1_registerd-dataset.PNG "registerd datasets")
+
+![dataset details](https://github.com/fuzzballb/nd00333_AZMLND_C2/blob/master/starter_files/Screenshots/Review/1_dataset-available.PNG "datasets details")
+
+![configuring an azureML run](https://github.com/fuzzballb/nd00333_AZMLND_C2/blob/master/starter_files/Screenshots/AutoMLrun.PNG "configuring an azureML run")
 
 
 ### using Automated ML to determine the best model
@@ -30,29 +34,55 @@ The Voting Ensamble model is deployed and exposes a REST endpoint, with supporti
 ![Deploying the best model as a REST endpoint](https://github.com/fuzzballb/nd00333_AZMLND_C2/blob/master/starter_files/Screenshots/EndpointReady.PNG "Deploying the best model as a REST endpoint")
 
 #### Using the Swagger definition in SwaggerUI
+
+Using Swagger UI we can see the endpoints and expected data format for those endpoint. Unfortunately the python server didn't work when actually sending the call
+
 ![Using the Swagger definition in SwaggerUI](https://github.com/fuzzballb/nd00333_AZMLND_C2/blob/master/starter_files/Screenshots/SwaggerJSON.PNG "Using the Swagger definition in SwaggerUI")
+
+![The SwaggerUI won't allow the actual call](https://github.com/fuzzballb/nd00333_AZMLND_C2/blob/master/starter_files/Screenshots/Review/3_http_server_issue.PNG "The SwaggerUI won't allow the actual call")
 
 #### Consuming endpoint with endpoint.py
 ![Consuming endpoint with endpoint.py](https://github.com/fuzzballb/nd00333_AZMLND_C2/blob/master/starter_files/Screenshots/Endpointpy_result.PNG "Consuming endpoint with endpoint.py")
 
 ### Enable logging
 
-To enable logging for the REST endpoint, a Python script is used that enables application insights
+To enable logging for the REST endpoint, a Python script is used that enables application insights, then we check the UI to see if logging is actually enabled
 
 ![Enable logging](https://github.com/fuzzballb/nd00333_AZMLND_C2/blob/master/starter_files/Screenshots/Logs_output.PNG "Enable logging")
+
+
+![Check UI to see that logging is enabled](https://github.com/fuzzballb/nd00333_AZMLND_C2/blob/master/starter_files/Screenshots/Review/2_application_insights_true.PNG "Check UI to see that logging is enabled")
+
 
 	
 ### Creating a publishing a pipeline
 
 Using the iPython notebook, a pipeline is generated that is visible as a graph in AzureML studio. 
 
+![Pipeline overview in AzureML studio](https://github.com/fuzzballb/nd00333_AZMLND_C2/blob/master/starter_files/Screenshots/Review/Review/4_Pipeline-overview-running-2.PNG "Pipeline overview in AzureML studio")
+
+![Pipeline graph in AzureML studio](https://github.com/fuzzballb/nd00333_AZMLND_C2/blob/master/starter_files/Screenshots/Review/4_Pipeline-overview-running.PNG "Pipeline graph in AzureML studio")
+
+![Pipeline running in AzureML studio](https://github.com/fuzzballb/nd00333_AZMLND_C2/blob/master/starter_files/Screenshots/Review/4_Pipeline-running.PNG "Pipeline running in AzureML studio")
+
+
+
 #### Using the SDK to define a pipeline
 
-![Creating a publishing a pipeline SDK](https://github.com/fuzzballb/nd00333_AZMLND_C2/blob/master/starter_files/Screenshots/Creating_pipeline_1.png "Creating a publishing a pipeline SDK")
+![Creating a publishing a pipeline SDK](https://github.com/fuzzballb/nd00333_AZMLND_C2/blob/master/starter_files/Screenshots/Creating_pipeline_1.PNG "Creating a publishing a pipeline SDK")
 
 #### The resulting pipeline in AzureML studio
 
 ![Creating a publishing a pipeline Result](https://github.com/fuzzballb/nd00333_AZMLND_C2/blob/master/starter_files/Screenshots/Pipeline.PNG "Creating a publishing a pipeline Result")
+
+![5_endpointstate_active](https://github.com/fuzzballb/nd00333_AZMLND_C2/blob/master/starter_files/Screenshots/Review/5_endpointstate_active.PNG "5_endpointstate_active")
+
+![6_scheduled-run](https://github.com/fuzzballb/nd00333_AZMLND_C2/blob/master/starter_files/Screenshots/Review/6_scheduled-run.PNG "6_scheduled-run")
+
+![Call_to_endpoint_curl](https://github.com/fuzzballb/nd00333_AZMLND_C2/blob/master/starter_files/Screenshots/Review/Call_to_endpoint_curl.PNG "Call_to_endpoint_curl")
+
+![Published-pipeline-automl](https://github.com/fuzzballb/nd00333_AZMLND_C2/blob/master/starter_files/Screenshots/Review/Published-pipeline-automl.PNG "Published-pipeline-automl")
+
 
 
 ### Creating and/or sharing documentation and Swagger definition
@@ -70,33 +100,16 @@ Secondly it is an option to train longer and maybe even try if the neural networ
 
 Recording of all the steps taken in this project. Here are the timestamped subjects
 
-### Uploading dataset
+### Screencast
 
-[![Uploading dataset](https://img.youtube.com/vi/rcyM-dMFxAU/0.jpg)](https://www.youtube.com/watch?v=rcyM-dMFxAU&t=117)
+[![Uploading dataset](https://img.youtube.com/vi/2GcoFIh7-6I/0.jpg)](https://www.youtube.com/watch?v=2GcoFIh7-6I)
 
-### Configuring an azureML run
+1 Working deployed ML model endpoint
+2 Deployed Pipeline
+3 Available AutoML Model
+4 Successful API requests to the endpoint with a JSON payload
 
-[![Configuring an azureML run](https://img.youtube.com/vi/rcyM-dMFxAU/0.jpg)](https://www.youtube.com/watch?v=rcyM-dMFxAU&t=187)
 
-### Selecting the best performing model to be deployed
-
-[![Selecting the best performing model to be deployed](https://img.youtube.com/vi/rcyM-dMFxAU/0.jpg)](https://www.youtube.com/watch?v=rcyM-dMFxAU&t=262)
-
-### Enabling logging
-
-[![Enabelling logging](https://img.youtube.com/vi/rcyM-dMFxAU/0.jpg)](https://www.youtube.com/watch?v=rcyM-dMFxAU&t=427)
-
-### Swagger UI
-
-[![Swagger UI](https://img.youtube.com/vi/rcyM-dMFxAU/0.jpg)](https://www.youtube.com/watch?v=rcyM-dMFxAU&t=507)
-
-### Consuming API endpoint with Python
-
-[![Consuming API endpoint with Python](https://img.youtube.com/vi/rcyM-dMFxAU/0.jpg)](https://www.youtube.com/watch?v=rcyM-dMFxAU&t=507)
-
-### Notebook that does all the steps to setup an end to end pipeling using the Python SDK
-
-Note: While recoding there where only a few minutes of time left in the Lab. 
 
 See https://github.com/fuzzballb/nd00333_AZMLND_C2/blob/master/starter_files/aml-pipelines-with-automated-machine-learning-step.ipynb 
 for an overview of the steps executed in the Notebook
