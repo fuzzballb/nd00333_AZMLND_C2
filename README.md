@@ -18,13 +18,11 @@ In AzureML studio, a dataset containing marketing data is uploaded and a 'run' i
 
 ![configuring an azureML run](https://github.com/fuzzballb/nd00333_AZMLND_C2/blob/master/starter_files/Screenshots/AutoMLrun.PNG "configuring an azureML run")
 
-
 ### using Automated ML to determine the best model
 
 From all the training methods used by AutoML, the Voting Ensemble has the highest accuracy. 
 
 ![using Automated ML to determine the best model](https://github.com/fuzzballb/nd00333_AZMLND_C2/blob/master/starter_files/Screenshots/Trained_models.PNG "using Automated ML to determine the best model")
-
 
 ### Deploying the best model as a REST endpoint
 
@@ -42,11 +40,15 @@ Using Swagger UI we can see the endpoints and expected data format for those end
 ![The SwaggerUI won't allow the actual call](https://github.com/fuzzballb/nd00333_AZMLND_C2/blob/master/starter_files/Screenshots/Review/3_http_server_issue.PNG "The SwaggerUI won't allow the actual call")
 
 #### Calling the endpoint with curl command 
+
+To see if the proposed crul command of the Swagger file works, Here we are directly making a post request with curl 
+
 ![Calling endpoint with curl command](https://github.com/fuzzballb/nd00333_AZMLND_C2/blob/master/starter_files/Screenshots/Review/Call_to_endpoint_curl.PNG "Calling endpoint with curl command")
 
-
-
 #### Consuming endpoint with endpoint.py
+
+Calling the endpoint from a python sript also works
+
 ![Consuming endpoint with endpoint.py](https://github.com/fuzzballb/nd00333_AZMLND_C2/blob/master/starter_files/Screenshots/Endpointpy_result.PNG "Consuming endpoint with endpoint.py")
 
 ### Enable logging
@@ -55,11 +57,8 @@ To enable logging for the REST endpoint, a Python script is used that enables ap
 
 ![Enable logging](https://github.com/fuzzballb/nd00333_AZMLND_C2/blob/master/starter_files/Screenshots/Logs_output.PNG "Enable logging")
 
-
 ![Check UI to see that logging is enabled](https://github.com/fuzzballb/nd00333_AZMLND_C2/blob/master/starter_files/Screenshots/Review/2_application_insights_true.PNG "Check UI to see that logging is enabled")
 
-
-	
 ### Creating a publishing a pipeline
 
 Using the iPython notebook, a pipeline is generated that is visible as a graph in AzureML studio. 
@@ -68,24 +67,15 @@ Using the iPython notebook, a pipeline is generated that is visible as a graph i
 
 ![Pipeline graph in AzureML studio](https://github.com/fuzzballb/nd00333_AZMLND_C2/blob/master/starter_files/Screenshots/Review/Published-pipeline-automl.PNG "Published Pipeline graph")
 
-
-
-
 #### Using the SDK to define a pipeline
 
 ![Creating a publishing a pipeline SDK](https://github.com/fuzzballb/nd00333_AZMLND_C2/blob/master/starter_files/Screenshots/Creating_pipeline_1.png "Creating a publishing a pipeline SDK")
 
 #### The resulting pipeline in AzureML studio
 
-
 ![Pipeline active endpoint](https://github.com/fuzzballb/nd00333_AZMLND_C2/blob/master/starter_files/Screenshots/Review/5_endpointstate_active.PNG "Pipeline active endpoint")
 
-
 ![Scheduled run](https://github.com/fuzzballb/nd00333_AZMLND_C2/blob/master/starter_files/Screenshots/Review/6_scheduled-run.PNG "Scheduled run")
-
-
-
-
 
 ### Creating and/or sharing documentation and Swagger definition
 
