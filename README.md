@@ -41,6 +41,11 @@ Using Swagger UI we can see the endpoints and expected data format for those end
 
 ![The SwaggerUI won't allow the actual call](https://github.com/fuzzballb/nd00333_AZMLND_C2/blob/master/starter_files/Screenshots/Review/3_http_server_issue.PNG "The SwaggerUI won't allow the actual call")
 
+#### Calling the endpoint with curl command 
+![Calling endpoint with curl command](https://github.com/fuzzballb/nd00333_AZMLND_C2/blob/master/starter_files/Screenshots/Review/Call_to_endpoint_curl.PNG "Calling endpoint with curl command")
+
+
+
 #### Consuming endpoint with endpoint.py
 ![Consuming endpoint with endpoint.py](https://github.com/fuzzballb/nd00333_AZMLND_C2/blob/master/starter_files/Screenshots/Endpointpy_result.PNG "Consuming endpoint with endpoint.py")
 
@@ -59,7 +64,7 @@ To enable logging for the REST endpoint, a Python script is used that enables ap
 
 Using the iPython notebook, a pipeline is generated that is visible as a graph in AzureML studio. 
 
-![Pipeline overview in AzureML studio](https://github.com/fuzzballb/nd00333_AZMLND_C2/blob/master/starter_files/Screenshots/Review/Review/4_Pipeline-overview-running-2.PNG "Pipeline overview in AzureML studio")
+![Pipeline overview in AzureML studio](https://github.com/fuzzballb/nd00333_AZMLND_C2/blob/master/starter_files/Screenshots/Review/4_Pipeline-overview-running-2.PNG "Pipeline overview in AzureML studio")
 
 ![Pipeline graph in AzureML studio](https://github.com/fuzzballb/nd00333_AZMLND_C2/blob/master/starter_files/Screenshots/Review/Published-pipeline-automl.PNG "Published Pipeline graph")
 
@@ -73,10 +78,10 @@ Using the iPython notebook, a pipeline is generated that is visible as a graph i
 #### The resulting pipeline in AzureML studio
 
 
-![Creating a publishing a pipeline Result](https://github.com/fuzzballb/nd00333_AZMLND_C2/blob/master/starter_files/Screenshots/Review/5_endpointstate_active.PNG "Pipeline active endpoint")
+![Pipeline active endpoint](https://github.com/fuzzballb/nd00333_AZMLND_C2/blob/master/starter_files/Screenshots/Review/5_endpointstate_active.PNG "Pipeline active endpoint")
 
 
-![Creating a publishing a pipeline Result](https://github.com/fuzzballb/nd00333_AZMLND_C2/blob/master/starter_files/Screenshots/Review/6_scheduled-run.PNG "Scheduled run")
+![Scheduled run](https://github.com/fuzzballb/nd00333_AZMLND_C2/blob/master/starter_files/Screenshots/Review/6_scheduled-run.PNG "Scheduled run")
 
 
 
